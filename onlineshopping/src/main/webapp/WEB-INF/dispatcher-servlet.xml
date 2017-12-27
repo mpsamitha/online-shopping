@@ -12,6 +12,7 @@
    ">
    
    <contex:component-scan base-package="net.kzn.onlineshopping.controller"/>
+   <contex:component-scan base-package="net.kzn.shoppingbackend.daoimpl"/>
    
    <bean id="viewResolver"
        class="org.springframework.web.servlet.view.InternalResourceViewResolver">
