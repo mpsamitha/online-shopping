@@ -24,13 +24,22 @@
 
 <script>
 	window.menu = '${title}';
+	
+	window.contextRoot = '${contextRoot}';
 </script>
 
 <!-- Bootstrap core CSS -->
 <link href="${css}/bootstrap_edit.min.css" rel="stylesheet">
 
+<!-- font-awesome this is my add -->
+<link href="${css}/font-awesome.min.css" rel="stylesheet">
+<!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">-->
+
 <!-- Bootstrap Readable Theme CSS -->
 <link href="${css}/bootstrap-readable-theme.css" rel="stylesheet">
+
+<!-- Bootstrap DataTables -->
+<link href="${css}/dataTables.bootstrap4.css" rel="stylesheet">
 
 <!-- Custom styles for this template -->
 <link href="${css}/myapp.css" rel="stylesheet">
@@ -75,6 +84,12 @@
 		<!-- Bootstrap core JavaScript -->
 		<script src="${js}/jquery.min.js"></script>
 		<script src="${js}/bootstrap.bundle.min.js"></script>
+
+		<!-- Datatable plugin-->
+		<script src="${js}/jquery.dataTables.js"></script>
+		
+		<!-- Datatable Bootstrap Script-->
+		<script src="${js}/dataTables.bootstrap4.js"></script>
 
 		<!-- Self Coded javascript file -->
 		<script src="${js}/myapp.js"></script>
