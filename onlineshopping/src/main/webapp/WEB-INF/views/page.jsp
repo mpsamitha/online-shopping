@@ -76,6 +76,11 @@
 				<%@include file="listProducts.jsp"%>
 			</c:if>
 
+			<!-- Loading only when user click single product -->
+			<c:if test="${userClickShowProduct == true}">
+				<%@include file="singleProduct.jsp"%>
+			</c:if>
+
 		</div>
 
 		<!-- Footer -->
